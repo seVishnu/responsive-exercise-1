@@ -2,7 +2,20 @@ body {
   font-size: 1.125rem;
   color: #707070;
   margin: 0;
+  background: pink;
 }
+
+/* @media screen and (min-width: 400px) {
+  body {
+    background-color: green;
+  }
+}
+@media screen and (min-width: 600px) {
+  body {
+    background-color: orange;
+  }
+} */
+
 /* Typography */
 h1 {
   font-size: 3rem;
@@ -46,4 +59,15 @@ img {
   background-color: #212614;
   padding: 1em;
   color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex-direction: column;
+  }
+  .col-1,
+  .col-2,
+  .col-3 {
+    width: 100%;
+  }
 }
